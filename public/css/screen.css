@@ -11,7 +11,7 @@
 
 @import url('../css/reset.css') screen;
 @import url('../css/extension.css') screen;
-@import url('../css/layout.css') screen;
+@import url('../css/layout.min.css') screen;
 @import url('../css/style.css') screen;
 
 /* Icons */
