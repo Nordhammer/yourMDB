@@ -1,13 +1,17 @@
 <?php
 $template = new Template(TEMPLATE_PATH.'layout/web/footer.blade.php');
-$template->assign('menu.kontakt',getUserLang('menu.kontakt'));
-$template->assign('menu.weiter_zu_kontakt',getUserLang('menu.weiter_zu_kontakt'));
-$template->assign('menu.hilfe',getUserLang('menu.hilfe'));
-$template->assign('menu.weiter_zu_hilfe',getUserLang('menu.weiter_zu_hilfe'));
-$template->assign('menu.datenschutz',getUserLang('menu.datenschutz'));
-$template->assign('menu.weiter_zu_datenschutz',getUserLang('menu.weiter_zu_datenschutz'));
-$template->assign('menu.impressum',getUserLang('menu.impressum'));
-$template->assign('menu.weiter_zu_impressum',getUserLang('menu.weiter_zu_impressum'));
+$template->assign('web.to_contact',getRoutes('web.to_contact'));
+$template->assign('menu.contact',getLang('menu.contact'));
+$template->assign('menu.go_to_contact',getLang('menu.go_to_contact'));
+$template->assign('web.to_help',getRoutes('web.to_help'));
+$template->assign('menu.help',getLang('menu.help'));
+$template->assign('menu.go_to_help',getLang('menu.go_to_help'));
+$template->assign('web.to_privacy',getRoutes('web.to_privacy'));
+$template->assign('menu.privacy',getLang('menu.privacy'));
+$template->assign('menu.go_to_privacy',getLang('menu.go_to_privacy'));
+$template->assign('web.to_impressum',getRoutes('web.to_impressum'));
+$template->assign('menu.impressum',getLang('menu.impressum'));
+$template->assign('menu.go_to_impressum',getLang('menu.go_to_impressum'));
 $template->assign('config.software','Nordhammer');
 $template->assign('config.version','pre-alpha 2.0.0');
 if (isset($_SESSION['msg'])) {

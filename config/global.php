@@ -22,7 +22,7 @@ define('NATIVE_LANGUAGE','de');
 include_once 'config/database.php';
 
 /* ROUTES */
-include_once 'routes/web.php';
+include_once 'routes/web2.php';
 //include_once 'routes/admin.php';
 //include_once 'routes/mod.php';
 

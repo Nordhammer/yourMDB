@@ -461,3 +461,11 @@ function getConfig($alias) {
     }
 }
 
+
+function getRoutes($data) {
+    return @(include 'routes/'.explode('.', $data)[0].'.php')[explode('.', $data)[1]] ?? '';
+}
+
+function getLang($data) {
+    return @(include 'resource/lang/'.($_SESSION['lang'] ?? 'de').'/'.explode('.', $data)[0].'.php')[explode('.', $data)[1]] ?? '';
+}

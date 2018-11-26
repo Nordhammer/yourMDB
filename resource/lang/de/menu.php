@@ -2,26 +2,36 @@
 return [
     // header.php
     'start' => 'Startseite',
-    'zurueck_zu_start' => 'Zurück zur Startseite ...',
-    'anmelden' => 'Anmelden',
-    'weiter_zu_anmelden' => 'Weiter zur Anmeldung ...',
-    'abmelden' => 'Abmelden',
-    'weiter_zu_abmelden' => 'Weiter zur Abmeldung ...',
-    'registrieren' => 'Registrieren',
-    'weiter_zu_registrieren' => 'Weiter zur Registrierung ...',
-    'dein_profil' => 'Dein Profil',
-    'weiter_zu_dein_profil' => 'Weiter zu deinem Profil ...',
+    'go_to_start' => 'Zurück zur Startseite ...',
+
+    'login' => 'Anmelden',
+    'go_to_login' => 'Weiter zur Anmeldung ...',
+
+    'logout' => 'Abmelden',
+    'go_to_logout' => 'Weiter zur Abmeldung ...',
+
+    'signup' => 'Registrieren',
+    'go_to_signup' => 'Weiter zur Registrierung ...',
+    
+    'account' => 'Dein Konto',
+    'go_to_account' => 'Weiter zu deinem Konto ...',
+
     'admin_wcp' => 'Admin',
     'weiter_zu_admin_wcp' => 'Weiter zum Website Control Panel ...',
+    
     'mod_wcp' => 'Mod',
     'weiter_zu_mod_wcp' => 'Weiter zum Website Control Panel ...',
+
     // footer.php
-    'kontakt' => 'Kontakt',
-    'weiter_zu_kontakt' => 'Weiter zu den Kontaktmöglichkeiten ...',
-    'hilfe' => 'Hilfe',
-    'weiter_zu_hilfe' => 'Weiter zu Fragen und Antworten ...',
-    'datenschutz' => 'Datenschutz',
-    'weiter_zu_datenschutz' => 'Weiter zu unserer Datenschutzerklärung ...',
+    'contact' => 'Kontakt',
+    'go_to_contact' => 'Weiter zu den Kontaktmöglichkeiten ...',
+
+    'help' => 'Hilfe',
+    'go_to_help' => 'Weiter zu Fragen und Antworten ...',
+
+    'privacy' => 'Datenschutz',
+    'go_to_privacy' => 'Weiter zu unserer Datenschutzerklärung ...',
+
     'impressum' => 'Impressum',
-    'weiter_zu_impressum' => 'Weiter zu unserem Impressum ...',
+    'go_to_impressum' => 'Weiter zu unserem Impressum ...',
 ];

@@ -1,10 +1,10 @@
         <section class="footer">
             <div class="container">
                 <ul>
-                    <li><a href="/kontakt" title="{MENU.WEITER_ZU_KONTAKT}">{MENU.KONTAKT}</a> | </li>
-                    <li><a href="/hilfe" title="{MENU.WEITER_ZU_HILFE}">{MENU.HILFE}</a> | </li>
-                    <li><a href="/datenschutz" title="{MENU.WEITER_ZU_DATENSCHUTZ}">{MENU.DATENSCHUTZ}</a> | </li>
-                    <li><a href="/impressum" title="{MENU.WEITER_ZU_IMPRESSUM}">{MENU.IMPRESSUM}</a></li>
+                    <li><a href="{WEB.TO_CONTACT}" title="{MENU.GO_TO_CONTACT}">{MENU.CONTACT}</a> | </li>
+                    <li><a href="{WEB.TO_HELP}" title="{MENU.GO_TO_HELP}">{MENU.HELP}</a> | </li>
+                    <li><a href="{WEB.TO_PRIVACY}" title="{MENU.GO_TO_PRIVACY}">{MENU.PRIVACY}</a> | </li>
+                    <li><a href="{WEB.TO_IMPRESSUM}" title="{MENU.GO_TO_IMPRESSUM}">{MENU.IMPRESSUM}</a></li>
                 </ul>
                 <hr>
                 <small class="float-left">{FOOTER.USER_ONLINE}</small><br />

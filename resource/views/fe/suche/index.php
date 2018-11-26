@@ -19,7 +19,6 @@ if (isset($_POST['submit'])) {
     if ($err === false) {
         $dbc = DB::exe("SELECT DISTINCT * FROM cms_media WHERE topic = :keys AND active = :active", array("keys"=>"%".$q."%",':active'=>"1"));
         $db = DB::exe("SELECT DISTINCT * FROM cms_media WHERE topic LIKE :keys AND active = :active GROUP BY topic ORDER BY topic ASC, created ASC LIMIT :start,:per_page",array("keys"=>"%".$q."%",':active'=>"1",'start'=>$start,'per_page'=>$per_page));
-        // $db = DB::exe("SELECT DISTINCT mediaID,topic,active,created FROM cms_media WHERE topic LIKE :keys AND active = :active GROUP BY topic ORDER BY created DESC,topic ASC",array("keys"=>"%".$q."%",':active'=>"1"));
         $res = '';
         if (isset($db)) {
             foreach($db as $r) {
@@ -74,5 +73,4 @@ if (isset($navi)) {
     $pagination .= $tpl->show();
 }
 $template->assign('pagination',$pagination);
-// PAGINATION ENDE
 echo $template->show();
